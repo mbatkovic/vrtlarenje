@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Korišten izmjenjeni CSS sa Githuba -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->		
+		<title>Vrtlarenje</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="some description">
+		<meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<meta name="author" content="Marko Batković">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<header>
+		<div class="gardening"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">Vijesti</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+	</header>
+	<main>
+		<h1>NEWS</h1>
+		<div id="news_gallery">
+			<figure id="1">
+				<img src="news/news-2-1.jpg" alt="Bolesti u povrtlarstvu 1" title="Bolest rajčice">
+				<figcaption>Some description.<figcaption>
+			</figure>
+			<figure id="2">
+				<img src="news/news-2-2.jpg" alt="Bolesti u povrtlarstvu 2" title="Plamenjača krumpira">
+				<figcaption>Plamenjača krumpira.<figcaption>
+			</figure>
+			<figure id="3">
+				<img src="news/news-2-3.jpg" alt="Bolesti u povrtlarstvu 2" title="Virus mozaika duhana">
+				<figcaption>Virus mozaika duhana.<figcaption>
+			</figure>
+		</div>
+		<hr>
+		<div class="news">
+			<h2>Kako prepoznati najčešće bolesti u povrtlarstvu?</h2>
+			<p class="description">Najopasnije bolesti rajčice, paprike i krumpira, trenutno najzastupljenijeg povrća u svijetu, su svakako mikoze i viroze. Kako ih prepoznati i koje mjere zaštite primijeniti za suzbijanje?</p>
+			<p>Porodica Solanaceae odnosi se na nekoliko značajnih povrtlarskih vrsta koje se uzgajaju na velikim površinama u svijetu i jako su važne u ljudskoj prehrani, poput: rajčice, paprike, i krumpira.</p>
+			<p>S obzirom da se uzagjaju u većoj mjeri u cijelom svijetu, važno je obratiti pažnju na bolesti koje ih napadaju, kao i preventivne i direktne mjere zaštite koje treba primijeniti kako bi prevenirali bolest i omogućili biljci normalan razvoj i dobar prinos.</p>
+			<h2>Plamenjača krumpira i rajčice:</h2>
+			<p>Uzročnik ove bolesti je gljiva Phytophtora infestans, a bolest napada sve organe, osim korijena.</p>
+			<p>Micelij prezimljava u krtolama krumpira, a upravo zaraza na krumpiru predstavlja osnovni izvor inokuluma za rajčicu pa se tako bolest širi.</p>
+			<p></p>			
+			 
+			<h3>Crna pjegavost krumpira i rajčice:</h3>
+			<p>Bolest se javlja svuda, a naročito u toplijim krajevima, a uzrokuje ju gljiva Alternaria solani.</p>	
+			<p>Pored rajčice, napada plavi patlidžan i papriku. Gljiva formira konidije koje se rasijavaju vjetrom i tako se bolest širi.</p>	
+ 			<p>Sadržava se u biljnim ostacima, mada se može prenijeti zaraženim sjemenom, krtolama i rasadom.</p>	
+			<p>Simptomi su karakteristične crne, velike pjege, naročito na plodovima.</p>	
+			<p>Izvor: <a href="https://www.agroklub.com/" target="_blank">agroklub.com</a></p>
+			<p><a href="news.html">Povratak na vijesti</a></p>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2020 Marko Batković. <a href="https://github.com/mbatkovic/vrtlarenje"><img src="image/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
