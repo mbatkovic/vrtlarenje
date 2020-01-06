@@ -1,0 +1,59 @@
+  
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!--Korišten izmjenjeni CSS sa Githuba -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->		
+		<title>Vrtlarenje</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="some description">
+		<meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<meta name="author" content="Marko Batković">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<!-- Header -->	
+	<header id="header">
+		<div class="gardening"></div>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">Vijesti</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="galerija.html">Galerija</a></li>				
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Moj Vrt</h1>
+		<figure>
+			<img src="image/vegetable.jpg" alt="Vrt" title="VRT">
+			<figcaption>Primjer urednog vrta </figcaption>
+		</figure>
+		<body>			
+		<p>U današnje vrijeme izvor hrane je često upitan, sve češće posežemo za domaćim povrćem.</p>
+		<p>Sve dragocjenije je u vlastitom vrtu uzgojeno povrće, osmišljeno prema vlastitom planu, posađeno vlastitim rukama koje raste i razvija se pred našim budnim očima.</p>
+		<p>Povrće  iz domaćeg samoopskrbnog vrta znači i znatno rasterećenje obiteljskog proračuna te ugodno opuštanje i kretanje na svježem zraku.</p>
+		<p>Samo pažljivim odabirom namirnica koje konzumiramo svaki dan, možemo postići odgovarajuće uvjete za zdravi način života.</p>
+		<p>Sigurno je besprijekorno samo povrće koje uzgojimo sami.</p>
+		<p>Svježe domaće povrće, koje smo upravo ubrali iz vrta,  ima i najviše vitamina, minerala i hranjivih tvari. Što je dulje vrijeme i proces, koje je potrebno od vrta do našeg tanjura, manje ima u njemu hranjivih i zdravih tvari. </p>
+		<p>Naime, dokazano je da razina vitamina i minerala s dužim razdobljem skladištenja kod puno vrsta povrća opada.</p>
+		<p>Jedno od najčešćih pitanja na početku je koliko vrt mora biti velik. Za samoopskrbu svježim povrćem trebalo bi biti dovoljno oko 10 m2 po osobi.</p> 
+		<p>Ako želimo imati nešto povrća i za zimnicu, trebat će nam  vrt 2x veće površine.</p> 
+		<p>Uspjeh vrta također će ovisiti o odgovarajućem položaju, kvaliteti tla, vremena koje smo mu posvetili te korištenju sredstava za njegu i zaštitu biljaka.</p>
+		<p>Source: <a href="http://www.napravivrt.hr/hr/moj-vrt/zasto-vrt" target="_blank">"Moj vrt"</a></p>
+		<p>Social media:<br>
+			<a href="https://www.linkedin.com/in/marko-batkovi%C4%87-578048b2/" target="_blank"><img src="image/linkedin.svg" alt="Linkedin" title="Linkedin" style="width:24px; margin-top:0.4em"></a>
+			<a href="https://twitter.com/EcoGardenSystem" target="_blank"><img src="image/twitter.svg" alt="Twitter" title="Twitter" style="width:24px; margin-top:0.4em"></a>
+		</p>
+		</body>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2020 Marko Batković. <a href="https://github.com/mbatkovic/vrtlarenje"><img src="image/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
