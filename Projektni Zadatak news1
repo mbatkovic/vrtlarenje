@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Korišten izmjenjeni CSS sa Githuba -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->		
+		<title>Vrtlarenje</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="some description">
+		<meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<meta name="author" content="Marko Batković">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<header>
+		<div class="gardening"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">Vijesti</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+	</header>
+	<main>
+		<h1>Vijesti</h1>
+		<div id="news_gallery">
+			<figure id="1">
+				<img src="news/news-1-1.jpg" alt="Umjetno gnojivo" title="Umjetno gnojivo">
+				<figcaption>Gnojidba biljaka<figcaption>
+			</figure>
+			<figure id="2">
+				<img src="news/news-1-2.jpg" alt="Kompost" title="Kompost">
+				<figcaption>Priprema komposta.<figcaption>
+			</figure>
+			<figure id="3">
+				<img src="news/news-1-3.jpg" alt="Biljke za kompost" title="Biljke za kompost">
+				<figcaption>Biljke za kompost<figcaption>
+			</figure>			
+		</div>
+		<hr>
+		<div class="news">
+			<h2>Gnojidba biljaka</h2>
+			<p class="description">Gnojidba biljaka jedan je od najvažnijih tretmana njege, neophodan za pravilan razvoj biljaka, obilno cvjetanje i dobar prinos.</p>
+			<p>Gnojidba biljaka jedan je od najvažnijih tretmana njege, neophodan za pravilan razvoj biljaka, obilno cvjetanje i dobar prinos.</p>
+			<p>Pojedine vrste vrtnih biljaka razlikuju se u prehrambenim potrebama, pa su stoga i potrebe za gnojivom različite.</p>
+			<p>Prije nego što započnete gnojidbu, najprije morate znati zahtjeve biljaka koje rastu u našem vrtu.</p>
+			<p>Koje su najčešće su pogreške u gnojidbi vrtnih biljaka</p>
+			<p>Koristi se pogrešna vrsta gnojiva - gnojivo treba odabrati prema vrsti biljke. Udio pojedinih minerala u gnojivu je važan.</p>
+			<p>Prevelika doza korištenog gnojiva - ako koristimo previše gnojiva u tlu, tada možemo izazvati previše slanosti u tlu, što rezultira činjenicom da korijenje biljaka ne može uzimati vodu iz tla s mineralima.</p>
+			<p>Prilikom gnojidbe biljaka uvijek slijedite upute proizvođača na ambalaži za pripremu, pažljivo odmjeravajući preporučene doze.</p>
+			<p>Pomicanje - rezultat ove pogreške može biti nepravilan razvoj biljke. Previše dušične gnojidbe obično uzrokuje intenzivan razvoj zelene mase biljke, uz smanjenje usjeva i ograničavanje cvatnje. </p>
+			<p>Prijenos kalija biljkama otežava dobivanje magnezija i kalcija iz tla, a višak fosfora ometa apsorpciju željeza i bakra.</p>
+			<p>Ne-gnojidba biljaka posađenih na tlima siromašnim mineralima i biljaka uzgajanih u kontejnerima - za pjeskovita i propusna tla potrebno je opskrbiti gnojivima.</p>
+			<p>U slučaju biljaka koje se uzgajaju u loncima, tlo se sterilizira nakon nekog vremena i biljke nemaju gdje uzimati minerale i rastu sve manje i manje.</p>
+			<p>Za biljke koje se uzgajaju u kontejnerima, najbolje je rješenje koristiti profesionalna peletirana gnojiva sporog djelovanja, koja se primjenjuju jednom godišnje.</p>
+			<p>Neodgovarajuća gnojidba - gnojiva se primjenjuju prekasno ili prerano. Brzo-djelotvorna gnojiva primjenjuju se sredinom svibnja, a sporo djelujuća gnojiva s usporenim djelovanjem - u drugoj polovici travnja ili početkom svibnja.</p>
+			<p>Najnoviji datum gnojidbe - samo gnojiva kratkog djelovanja - je sredina kolovoza. Kasnije možemo primjenjivati ​​samo jesenska gnojiva. Prekasna primjena dušičnih gnojiva produžuje vegetaciju trajnica i sprečava linifikaciju izdanaka, čineći biljke manje otpornima na mraz zimi.</p>
+			<p>Posljednji put u sezoni dušična gnojiva trebala bi se primjenjivati ​​početkom srpnja.</p>
+			<p>Upotreba gnojiva kojima je istekao rok trajanja - morate paziti na datume isteka pripravaka, koji su naznačeni na pakiranju. Nakon isteka roka trajanja, sastav gnojidbene smjese može se promijeniti, a spojevi koje sadrži mogu postati neučinkoviti i čak toksični.</p>
+			<p>Neravnomjerno rasipanje gnojiva - gnojiva se uvijek moraju ravnomjerno rasporediti po oplođenom površinom, tako da se na jednom mjestu ne nakupljaju višak, a na drugom ne postoji ili samo količina u tragovima.</p>
+			<p>Nakon posipavanja, gnojiva se moraju pomiješati s gornjim slojem tla, a zatim pažljivo zalijevati (to će spriječiti prozračivanje pripravka i omogućiti bolju raspodjelu hranjivih sastojaka).</p>
+			<p>Izvor: <a href="https://hr.acumeninterior.com/1322591-nawo-enie-ro-lin-w-ogrodzie" target="_blank">hr.acumeninterior.com</a></p>
+			<p><a href="news.html">Povratak na vijesti</a></p>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2020 Marko Batković. <a href="https://github.com/mbatkovic/vrtlarenje"><img src="image/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
