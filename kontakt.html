@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Korišten izmjenjeni CSS sa Githuba -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->		
+		<title>Vrtlarenje</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="some description">
+		<meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<meta name="author" content="Marko Batković">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<header>
+		<div class="gardening"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">Vijesti</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d740.9609772594395!2d16.825733488134837!3d45.294322942107726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDE3JzM5LjYiTiAxNsKwNDknMzQuNiJF!5e1!3m2!1shr!2shr!4v1578311010152!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			<form action="https://www.vvg.hr/" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime.." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime.." required>
+				
+				<label for="lname">Vaša E-mail adresa *</label>
+				<input type="email" id="email" name="email" placeholder="Vaša e-mail adresa.." required>
+
+				<label for="country">Zemlja</label>
+				<select id="country" name="country">
+				  <option value="">Molimo odaberite</option>
+				  <option value="BE">Belgium</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="LU">Luxembourg</option>
+				  <option value="HU">Hungary</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Napišite nešto.." style="height:200px"></textarea>
+
+				<input type="submit" value="Objavi">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2020 Marko Batković. <a href="https://github.com/mbatkovic/vrtlarenje"><img src="image/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
